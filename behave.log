@@ -1,0 +1,15 @@
+2023-05-11 20:59:31,419 | steps_landlord_announcements.py | INFO | phone validation token id = 68cbbb7a-f5ac-4593-1b12-08db52484e23
+2023-05-11 20:59:31,759 | steps_landlord_announcements.py | INFO | access token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMDg0IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiVGVuYW50IiwiZXhwIjoxNjgzODI4MjcxfQ.2gOgdXzqhT_5PO1yoKeG2o4xwWeKQiAgbqH5IYBzLD8
+2023-05-11 20:59:31,759 | steps_landlord_announcements.py | INFO | refresh token = tSiJV11eVQKRFPAG1+caDnR0g86Q4/fpV0Afa/PgUTc=
+2023-05-11 20:59:31,986 | steps_landlord_announcements.py | INFO | phone validation token id = e5d69b65-2775-443a-1b13-08db52484e23
+2023-05-11 20:59:32,291 | steps_landlord_announcements.py | INFO | access token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjA4IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiTGFuZGxvcmQiLCJleHAiOjE2ODM4MjgyNzJ9.ECgozdXohDhO2lLUsv6IQuLxKhggH_SHRSTtribcrac
+2023-05-11 20:59:32,291 | steps_landlord_announcements.py | INFO | refresh token = FH89irt3t13oq1U2po4UHPt4cOK1cVMFoK0H8afbERM=
+2023-05-11 20:59:32,429 | steps_landlord_announcements.py | INFO | new access token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjA4IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiTGFuZGxvcmQiLCJleHAiOjE2ODM4MjgyNzJ9.ECgozdXohDhO2lLUsv6IQuLxKhggH_SHRSTtribcrac
+2023-05-11 20:59:32,429 | steps_landlord_announcements.py | INFO | new refresh token = Rd+/H5m5dlfOoADsflK5MH8quNu8c4Cla39ptshO73U=
+2023-05-11 20:59:33,776 | steps_landlord_announcements.py | INFO | new announcement id = 1697
+2023-05-11 20:59:34,262 | steps_landlord_announcements.py | INFO | phone validation token id = 1d12884a-db6b-497f-1b14-08db52484e23
+2023-05-11 20:59:34,503 | steps_landlord_announcements.py | INFO | access token = eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOiIxMjA4IiwiaHR0cDovL3NjaGVtYXMubWljcm9zb2Z0LmNvbS93cy8yMDA4LzA2L2lkZW50aXR5L2NsYWltcy9yb2xlIjoiTGFuZGxvcmQiLCJleHAiOjE2ODM4MjgyNzR9.6X5DHYBVBaYo-pMVzRNm64wCrloQXLX6Uyhb_CGODfQ
+2023-05-11 20:59:34,503 | steps_landlord_announcements.py | INFO | refresh token = wkEjBpgzjkwh4z7p77jthR58pGN8BfgCP3p17WNAdaY=
+2023-05-11 20:59:34,506 | steps_user_profile.py | INFO | user id = 1208
+2023-05-11 20:59:34,506 | steps_user_profile.py | INFO | user role = Landlord
+2023-05-11 20:59:34,630 | steps_user_profile.py | INFO | user data = {'id': 1208, 'phone': '+380669879879', 'name': 'api32', 'surname': 'test32', 'patronymic': 'qa3', 'email': 'test23@gmail.com', 'genderId': 1, 'verified': False, 'blocked': False, 'blockingReason': '', 'photoFilename': '/userphoto/99dfba42-3328-4341-9385-4625ebad06c4.png', 'created': '2022-08-16T23:48:53', 'gender': None, 'verificationRequests': None}
