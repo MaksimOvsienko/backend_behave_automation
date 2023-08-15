@@ -10,7 +10,7 @@ Feature: user profile actions
       | Landlord  | 1208    |
 #      | Tenant    | 1084    |
 
-  Scenario Outline: getting user profile data
+  Scenario Outline: get user profile data
     Given user id <user_id> and user role <user_role>
     When request with user id is sent
     Then response code should be 200, should receive json with id and other fields
@@ -19,7 +19,7 @@ Feature: user profile actions
 #      | Tenant    | 1084    |
       | Landlord  | 1208    |
 
-  Scenario: change of user profile data
+  Scenario: edit user profile data
     Given access token and resource determined by user role and id
     When request with new user data is sent
     Then status code of response should be 204
