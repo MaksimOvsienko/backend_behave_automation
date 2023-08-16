@@ -7,6 +7,13 @@ It has 2 roles:
 * landlord - can create announcement about his apartment
 * tenant - can view announcements
 
+### Main features
+
+* End to end tests:
+* * User authorization, creation and deletion of announcement
+* * Getting user profile data, editing and successfully saving it
+* Custom logger
+
 ### Demo gif
 Both scenarios successfull:
 
@@ -18,12 +25,6 @@ Both scenarios successfull:
 * SQLAlchemy in pair with postgres database, which is running in docker container
 * Python version 3.11
 
-### Main features
-
-* End to end tests:
-* * User authorization, creation and deletion of announcement
-* * Getting user profile data, editing and successfully saving it
-* Custom logger
 
 ### How to run project:
 
