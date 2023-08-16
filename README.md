@@ -7,18 +7,23 @@ It has 2 roles:
 * landlord - can create announcement about his apartment
 * tenant - can view announcements
 
-### Technologies used:
+### Demo gif
+Both scenarios successfull:
 
-* behavior driven development framework "behave" (also known as Cucumber in other programming languages)
+[![SceJi.gif](https://s11.gifyu.com/images/SceJi.gif)](https://gifyu.com/image/SceJi)
+
+### Technologies used
+
+* behavior driven development framework "behave" (also known as Cucumber) with Gherkin language
 * SQLAlchemy in pair with postgres database, which is running in docker container
 * Python version 3.11
 
-### Main features:
+### Main features
 
-* Tests:
-* * user authorization, creation and deletion of announcement
-* * get user profile data and edit it
-* logger
+* End to end tests:
+* * User authorization, creation and deletion of announcement
+* * Getting user profile data, editing and successfully saving it
+* Custom logger
 
 ### How to run project:
 
