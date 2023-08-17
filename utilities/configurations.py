@@ -32,7 +32,7 @@ def get_connection():
         print("Connection is fucked. Details: ", e)
 
 
-def get_query(query):
+def perform_query(query):
     conn = get_connection()
     cursor = conn.cursor()
     cursor.execute(query)

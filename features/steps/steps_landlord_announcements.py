@@ -4,7 +4,7 @@ from behave import given, when, then
 
 import logging
 
-from utilities.configurations import get_config, get_password, get_query
+from utilities.configurations import get_config, get_password, perform_query
 from utilities.resources import ApiResources
 
 log = logging.getLogger(__file__.split('\\')[-1])
@@ -12,7 +12,7 @@ log = logging.getLogger(__file__.split('\\')[-1])
 
 @given('user role {user_role} and user id {user_id} for authorization')
 def step_impl(context, user_role, user_id):
-    user_data_from_query = get_query(f"SELECT * FROM users WHERE user_role = '{user_role}' AND user_id = '{user_id}'")
+    user_data_from_query = perform_query(f"SELECT * FROM users WHERE user_role = '{user_role}' AND user_id = '{user_id}'")
     phone = user_data_from_query[0]
     user_role = user_data_from_query[1]
     context.user_data['id'] = user_data_from_query[2]
