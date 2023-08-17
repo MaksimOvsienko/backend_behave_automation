@@ -15,7 +15,7 @@ It has 2 roles:
 * Custom logger
 
 ### Demo gif
-Both scenarios successfull:
+In this case both end to end tests are successfull:
 
 [![SceJi.gif](https://s11.gifyu.com/images/SceJi.gif)](https://gifyu.com/image/SceJi)
 
@@ -27,6 +27,8 @@ Both scenarios successfull:
 
 
 ### How to run project:
+I can click on the dev site, but you can't, so this instruction is more like a reminder for me.
 
+Steps:
 1. In properties.ini type correct endpoint in format "endpoint = link"
 2. Write "behave" into console and enjoy
