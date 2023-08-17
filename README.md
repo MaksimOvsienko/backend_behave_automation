@@ -26,7 +26,7 @@ In this case both end to end tests are successfull:
 * Python version 3.11
 
 
-### How to run project:
+### How to run project
 I can click on the dev site, but you can't, so this instruction is more like a reminder for me.
 
 Steps:
